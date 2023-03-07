@@ -8,18 +8,18 @@
 
 <body>
 <div style=" width:60%; margin: 120px auto auto;">
-    <div style="text-align: center;font-size: xx-large;font-family: sans-serif;margin-bottom: 16px;">
+    <div style="text-align: center;font-size: 54px;font-family: sans-serif;margin-bottom: 16px;">
         17 Tage
     </div>
     <div id="p"
-         style="display: flex;justify-content: space-between;flex-wrap: wrap">
+         style="display: flex;flex-wrap: wrap;justify-content: center">
     </div>
 </div>
 </body>
 <script>
     document.onload = function () {
         return document.getElementById("p").innerHTML = Array(24 - new
-        Date().getDate()).fill(["<div style='font-size:xxx-large'>✈️</div>"]).join("")
+        Date().getDate()).fill(["<div style='font-size:54px;margin:3px'>✈️</div>"]).join("")
     }()
 </script>
 </html>
